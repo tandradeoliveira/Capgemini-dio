@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+           <head>
+        <title>Estilização para links</title>
+       
+        <style type="text/css">
+        h1{
+          font-family: verdana; 
+          font-size:12pt; }
+      
+        a.classe1:link, a.classe1:visited {text-decoration: underline;}
+        a.classe1:hover {
+          text-decoration: underline; 
+          color: #FF0000;  }
+        a.classe1:active {text-decoration: none;}
+      
+        a.classe2:link {
+          text-decoration: "underlineoverline"; color:#8470FF }
+        a.classe2:visited {
+          text-decoration: "underlineoverline"; 
+                  color:green;  }
+        a.classe2:hover {
+          text-decoration: underline; 
+          color: #00FF00;  }
+        a.classe2:active {
+          text-decoration: "underlineoverline";  }
+      
+        a.classe3:link, a.classe3:visited {text-decoration: none}
+        a.classe3:hover {
+          text-decoration: underline; 
+          color: #FF0000;  }
+        a.classe3:active {text-decoration: none}
+      
+        a.classe4:link, a.classe4:visited, a.classe4:active {
+          text-decoration: underline;  }
+        a.classe4:hover {text-decoration: underlineoverline; 
+          color:#FF0000; }
+      
+        a.classe5:link, a.classe5:visited, a.classe5:active {
+          text-decoration: underline;
+                  background:#ffc;}
+        a.classe5:hover {
+          text-decoration: underline; 
+          color: #FF0000; }
+      
+        a.classe6:link, a.classe6:visited, a.classe6:active {
+          text-decoration: underline;
+          background:#D2691E; }
+        a.classe6:hover {text-decoration: underline; 
+          color:#000; 
+          background:#FFFFCC; }
+      
+        a.classe7:link, a.classe7:visited, a.classe7:active {
+          text-decoration: none;}
+        a.classe7:hover {text-decoration: underline;  
+          color:#000000; 
+          font-size:150%; }
+      
+      </style>
+      </head>
+      <body>
+      <h1><a id=""titulo">Estes exemplos estão disponíveis <a href="http://www.maujor.com/tutorial/csslinks.php">Aqui</a></a></h1>
+        <a href="#titulo" class="classe1">
+        Este é o link da CLASSE1 - Link padrão</a><br/><br/>  
+      
+        <a href="#titulo" class="classe2">
+        Este é o link da CLASSE2 - Link com a cor verde quando o mouse está 
+      em cima
+        </a><br/><br/>
+      
+        <a href="#titulo" class="classe3">
+        Este é o link da CLASSE3 - Link sem sublinhado  </a><br/><br/>
+      
+        <a href="#titulo" class="classe4">
+        Este é o link da CLASSE4 - Link com sublinhado e sobrelinhado 
+      quando o mouse está em cima (hover)</a><br/><br/>
+      
+        <a href="#titulo" class="classe5">
+        Este é o link da CLASSE5 - Link com uma cor no plano de 
+      fundo  </a><br/><br/>
